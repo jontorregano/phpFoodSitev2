@@ -90,9 +90,9 @@
                         </label></td>
                 </tr>
                 <tr>
-                    <td>Size</td>
+                    <td>Tag</td>
                     <td><label>
-                            <input type='text' name='foodSize' class='form-control'/>
+                            <input type='text' name='foodTag' class='form-control'>
                         </label></td>
                 </tr>
                 <tr>
@@ -102,9 +102,9 @@
                         </label></td>
                 </tr>
                 <tr>
-                    <td>Tag</td>
+                    <td>Size</td>
                     <td><label>
-                            <input type='text' name='foodTag' class='form-control'>
+                            <input type='text' name='foodSize' class='form-control'/>
                         </label></td>
                 </tr>
                 <tr>

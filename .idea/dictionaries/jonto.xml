@@ -3,11 +3,14 @@
     <words>
       <w>databaseconnection</w>
       <w>dbname</w>
+      <w>firstname</w>
       <w>foodsite</w>
       <w>htmlspecialchars</w>
       <w>jonto</w>
       <w>maxcdn</w>
       <w>minified</w>
+      <w>pdofetch</w>
+      <w>pdofetchall</w>
     </words>
   </dictionary>
 </component>

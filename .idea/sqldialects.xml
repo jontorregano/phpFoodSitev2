@@ -3,5 +3,9 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/Structure/Database/menu.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/Structure/create.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Structure/delete.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Structure/read.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Structure/read_one.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Structure/update.php" dialect="MySQL" />
   </component>
 </project>
