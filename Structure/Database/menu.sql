@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 09, 2017 at 08:32 PM
+-- Generation Time: Jun 10, 2017 at 02:01 AM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -27,13 +27,13 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `menu` (
-  `id` int(11) NOT NULL,
-  `foodName` varchar(50) NOT NULL,
+  `id` int(255) NOT NULL,
+  `foodName` text NOT NULL,
   `foodPrice` decimal(6,0) NOT NULL,
-  `foodTag` varchar(50) NOT NULL,
-  `foodType` varchar(50) NOT NULL,
-  `foodSize` varchar(50) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='menu for the food site';
+  `foodTag` text NOT NULL,
+  `foodType` text NOT NULL,
+  `foodSize` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables
@@ -53,7 +53,7 @@ ALTER TABLE `menu`
 -- AUTO_INCREMENT for table `menu`
 --
 ALTER TABLE `menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -31,26 +31,31 @@
             include 'Database/databaseconnection.php';
 
             try{
-
                 // insert query
-                $query = "INSERT INTO products SET name=:name, description=:description, price=:price, created=:created";
+                $query = "INSERT INTO menu SET foodName=:foodName, foodPrice=:foodPrice, foodTag=:foodTag, 
+                  foodType=:foodType, foodSize=:foodSize";
 
                 // prepare query for execution
                 $stmt = $con->prepare($query);
 
                 // posted values
-                $name=htmlspecialchars(strip_tags($_POST['name']));
-                $description=htmlspecialchars(strip_tags($_POST['description']));
-                $price=htmlspecialchars(strip_tags($_POST['price']));
+                $foodName=htmlspecialchars(strip_tags($_POST['foodName']));
+                $foodPrice=htmlspecialchars(strip_tags($_POST['foodPrice']));
+                $foodTag=htmlspecialchars(strip_tags($_POST['foodTag']));
+                $foodType=htmlspecialchars(strip_tags($_POST['foodType']));
+                $foodSize=htmlspecialchars(strip_tags($_POST['foodSize']));
 
                 // bind the parameters
-                $stmt->bindParam(':name', $name);
-                $stmt->bindParam(':description', $description);
-                $stmt->bindParam(':price', $price);
+                $stmt->bindParam(':foodName', $foodName);
+                $stmt->bindParam(':foodPrice', $foodPrice);
+                $stmt->bindParam(':foodTag', $foodTag);
+                $stmt->bindParam(':foodType', $foodType);
+                $stmt->bindParam(':foodSize', $foodSize);
+
 
                 // specify when this record was inserted to the database
-                $created=date('Y-m-d H:i:s');
-                $stmt->bindParam(':created', $created);
+                //$created=date('Y-m-d H:i:s');
+                //$stmt->bindParam(':created', $created);
 
                 // Execute the query
                 if($stmt->execute()){
@@ -74,18 +79,35 @@
             <table class='table table-hover table-responsive table-bordered'>
                 <tr>
                     <td>Name</td>
-                    <td><input type='text' name='name' class='form-control' /></td>
-                </tr>
-                <tr>
-                    <td>Description</td>
-                    <td><textarea name='description' class='form-control'></textarea></td>
+                    <td><label>
+                            <input type='text' name='foodName' class='form-control'/>
+                        </label></td>
                 </tr>
                 <tr>
                     <td>Price</td>
-                    <td><input type='text' name='price' class='form-control' /></td>
+                    <td><label>
+                            <input type='number' name='foodPrice' class='form-control'/>
+                        </label></td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td>Size</td>
+                    <td><label>
+                            <input type='text' name='foodSize' class='form-control'/>
+                        </label></td>
+                </tr>
+                <tr>
+                    <td>Type</td>
+                    <td><label>
+                            <input type='text' name='foodType' class='form-control'/>
+                        </label></td>
+                </tr>
+                <tr>
+                    <td>Tag</td>
+                    <td><label>
+                            <input type='text' name='foodTag' class='form-control'>
+                        </label></td>
+                </tr>
+                <tr>
                     <td>
                         <input type='submit' value='Save' class='btn btn-primary' />
                         <a href='read.php' class='btn btn-danger'>Back to read products</a>
