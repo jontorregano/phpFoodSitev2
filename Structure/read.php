@@ -44,10 +44,11 @@
     }
 
     // select all data
-    $query = "SELECT id, foodName, foodPrice, foodTag, foodType, foodSize FROM menu ORDER BY id DESC";
-
+    $query = "SELECT id, foodName, foodPrice, foodTag, foodType, foodSize FROM menu ORDER BY id ASC
+      LIMIT :from_record_num, :records_per_page";
     $stmt = $con->prepare($query);
-
+    $stmt->bindParam(":from_record_num", $from_record_num, PDO::PARAM_INT);
+    $stmt->bindParam(":records_per_page", $records_per_page, PDO::PARAM_INT);
     $stmt->execute();
 
     // this is how to get number of rows returned
@@ -102,14 +103,29 @@
             echo "</tr>";
         }
 
+        // PAGINATION
+        // count total number of rows
+        $query = "SELECT COUNT(*) as total_rows FROM menu";
+        $stmt = $con->prepare($query);
+
+        // execute query
+        $stmt->execute();
+
+        // get total rows
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+        $total_rows = $row['total_rows'];
+
+        // paginate records
+        $page_url="read_categories.php?";
+        include_once "paging.php";
+
         // end table
         echo "</table>";
-
     }
 
-// if no records found
-    else{
-        echo "<div class='alert alert-danger'>No records found.</div>";
+        // if no records found
+        else{
+            echo "<div class='alert alert-danger'>No records found.</div>";
     }
     ?>
 

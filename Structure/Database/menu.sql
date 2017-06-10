@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 10, 2017 at 02:01 AM
+-- Generation Time: Jun 10, 2017 at 04:59 AM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -32,8 +32,16 @@ CREATE TABLE `menu` (
   `foodPrice` decimal(6,0) NOT NULL,
   `foodTag` text NOT NULL,
   `foodType` text NOT NULL,
-  `foodSize` text NOT NULL
+  `foodSize` text NOT NULL,
+  `foodImage` mediumblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `menu`
+--
+
+INSERT INTO `menu` (`id`, `foodName`, `foodPrice`, `foodTag`, `foodType`, `foodSize`, `foodImage`) VALUES
+(5, 'test', '3', 'test', 'test', 'test', '');
 
 --
 -- Indexes for dumped tables
@@ -53,7 +61,7 @@ ALTER TABLE `menu`
 -- AUTO_INCREMENT for table `menu`
 --
 ALTER TABLE `menu`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

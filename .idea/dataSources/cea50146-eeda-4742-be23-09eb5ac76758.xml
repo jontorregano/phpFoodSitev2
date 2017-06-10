@@ -42,7 +42,12 @@
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="14" parent="7" name="PRIMARY">
+    <column id="14" parent="7" name="foodImage">
+      <Position>7</Position>
+      <DataType>mediumblob|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="15" parent="7" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
