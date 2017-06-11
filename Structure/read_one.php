@@ -36,7 +36,7 @@
     // read current record's data
     try {
         // prepare select query
-        $query = "SELECT id, foodName, foodPrice, foodTag, foodType, foodSize, foodImage FROM menu WHERE id = ? 
+        $query = "SELECT id, foodName, foodPrice, foodTag, foodType, foodSize FROM menu WHERE id = ? 
           LIMIT 0,1";
         $stmt = $con->prepare( $query );
 
@@ -56,7 +56,6 @@
         $foodTag = $row['foodTag'];
         $foodType = $row['foodType'];
         $foodSize = $row['foodSize'];
-        $foodImage = htmlspecialchars($row['foodImage'], ENT_QUOTES);
     }
 
 // show error
@@ -91,10 +90,6 @@
         <tr>
             <td>Size</td>
             <td><?php echo htmlspecialchars($foodSize, ENT_QUOTES);  ?></td>
-        </tr>
-        <tr>
-            <td>Image</td>
-            <td><?php echo $foodImage ? "<img src='uploads/{$foodImage}' style='width:300px;' />" : "No image found.";  ?></td>
         </tr>
             <td></td>
             <td>
