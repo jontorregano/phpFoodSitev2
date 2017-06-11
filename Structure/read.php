@@ -116,7 +116,7 @@
         $total_rows = $row['total_rows'];
 
         // paginate records
-        $page_url="read_categories.php?";
+        $page_url="read.php?";
         include_once "paging.php";
 
         // end table
