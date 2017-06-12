@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3082dfa9-f044-48d3-81e6-7d5e40e709b3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Structure/create.php" afterPath="$PROJECT_DIR$/Structure/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Structure/read_one.php" afterPath="$PROJECT_DIR$/Structure/read_one.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Structure/update.php" afterPath="$PROJECT_DIR$/Structure/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Structure/Database/menu.sql" afterPath="$PROJECT_DIR$/Structure/Database/menu.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +58,7 @@
       <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Structure/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="3043">
               <caret line="179" column="40" lean-forward="false" selection-start-line="179" selection-start-column="40" selection-end-line="179" selection-end-column="40" />
               <folding>
                 <marker date="1497246089943" expanded="true" signature="961:1121" ph="INSERT INTO menu... " />
@@ -69,15 +67,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Structure/update.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="86" column="42" lean-forward="true" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+              <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
               <folding>
                 <marker date="1497250294972" expanded="true" signature="1159:1262" ph="SELECT id, f... menu" />
                 <marker date="1497250294972" expanded="true" signature="2530:2739" ph="UPDATE menu " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Structure/Database/menu.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -205,6 +213,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpFoodSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpFoodSitev2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Structure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -219,16 +245,17 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\phpFoodSite\Structure\uploads" />
-      <recent name="C:\wamp64\www\phpFoodSite\Structure\Database" />
-      <recent name="C:\Users\jonto\PhpstormProjects\phpTest\Structure\libs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\phpFoodSitev2\Structure\Database" />
       <recent name="C:\wamp64\www\phpFoodSite\Structure\Database" />
       <recent name="C:\Users\jonto\PhpstormProjects\phpTest\Data\libs" />
       <recent name="C:\Users\jonto\PhpstormProjects\phpTest\libs" />
       <recent name="C:\Users\jonto\PhpstormProjects\phpTest\Data\Tables" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\phpFoodSite\Structure\uploads" />
+      <recent name="C:\wamp64\www\phpFoodSite\Structure\Database" />
+      <recent name="C:\Users\jonto\PhpstormProjects\phpTest\Structure\libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,11 +364,12 @@
       <workItem from="1497206917786" duration="3096000" />
       <workItem from="1497247522831" duration="215000" />
       <workItem from="1497247768410" duration="2535000" />
+      <workItem from="1497251574392" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40622000" />
+    <option name="totallyTimeSpent" value="40658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,7 +386,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12135417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13229166" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13177083" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -750,21 +778,7 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cea50146-eeda-4742-be23-09eb5ac76758/console.sql" />
-    <entry file="file://$USER_HOME$/Desktop/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Structure/Database/menu.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/create.php" />
     <entry file="file://$PROJECT_DIR$/Structure/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -824,7 +838,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Structure/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="3043">
           <caret line="179" column="40" lean-forward="false" selection-start-line="179" selection-start-column="40" selection-end-line="179" selection-end-column="40" />
           <folding>
             <marker date="1497246089943" expanded="true" signature="961:1121" ph="INSERT INTO menu... " />
@@ -835,11 +849,19 @@
     <entry file="file://$PROJECT_DIR$/Structure/update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="86" column="42" lean-forward="true" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+          <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
           <folding>
             <marker date="1497250294972" expanded="true" signature="1159:1262" ph="SELECT id, f... menu" />
             <marker date="1497250294972" expanded="true" signature="2530:2739" ph="UPDATE menu " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Structure/Database/menu.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
