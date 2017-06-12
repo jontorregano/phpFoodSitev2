@@ -46,7 +46,6 @@
     // select all data
     $query = "SELECT id, foodName, foodPrice, foodTag, foodType, foodSize FROM menu ORDER BY id ASC
       LIMIT :from_record_num, :records_per_page";
-
     $stmt = $con->prepare($query);
     $stmt->bindParam(":from_record_num", $from_record_num, PDO::PARAM_INT);
     $stmt->bindParam(":records_per_page", $records_per_page, PDO::PARAM_INT);
@@ -56,7 +55,7 @@
     $num = $stmt->rowCount();
 
     // link to create record form
-    //echo "<a href='create.php' class='btn btn-primary m-b-1em'>Create New Product</a>";
+    echo "<a href='create.php' class='btn btn-primary m-b-1em'>Create New Product</a>";
 
     //check if more than 0 record found
     if($num>0){
@@ -65,7 +64,7 @@
 
         //creating our table heading
         echo "<tr>";
-        //echo "<th>ID</th>";
+        echo "<th>ID</th>";
         echo "<th>Name</th>";
         echo "<th>Price</th>";
         echo "<th>Tag</th>";
@@ -85,7 +84,7 @@
 
             // creating new table row per record
             echo "<tr>";
-            //echo "<td>{$id}</td>";
+            echo "<td>{$id}</td>";
             echo "<td>{$foodName}</td>";
             echo "<td>&#36;{$foodPrice}</td>";
             echo "<td>{$foodTag}</td>";
@@ -93,13 +92,13 @@
             echo "<td>{$foodSize}</td>";
             echo "<td>";
             // read one record
-            echo "<a href='read_one.php?id={$id}' class='btn btn-info m-r-1em'>View</a>";
+            echo "<a href='read_one.php?id={$id}' class='btn btn-info m-r-1em'>Read</a>";
 
             // we will use this links on next part of this post
-            //echo "<a href='update.php?id={$id}' class='btn btn-primary m-r-1em'>Edit</a>";
+            echo "<a href='update.php?id={$id}' class='btn btn-primary m-r-1em'>Edit</a>";
 
             // we will use this links on next part of this post
-            //echo "<a href='#' onclick='delete_user({$id});'  class='btn btn-danger'>Delete</a>";
+            echo "<a href='#' onclick='delete_user({$id});'  class='btn btn-danger'>Delete</a>";
             echo "</td>";
             echo "</tr>";
         }
@@ -116,12 +115,12 @@
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
         $total_rows = $row['total_rows'];
 
+        // paginate records
+        $page_url="read_updater.php?";
+        include_once "paging.php";
+
         // end table
         echo "</table>";
-
-        // paginate records
-        $page_url="read.php?";
-        include_once "paging.php";
     }
 
         // if no records found

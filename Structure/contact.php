@@ -61,7 +61,7 @@
                                 </li>
                                 <!-- Read php-->
                                 <li class="menu-item-has-children">
-                                    <a href="read.php">Inventory Menu</a>
+                                    <a href="read_updater.php">Inventory Menu</a>
                                 </li>
 
                                 <!-- Mega menu-->

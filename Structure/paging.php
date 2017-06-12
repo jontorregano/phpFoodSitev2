@@ -1,7 +1,7 @@
 <?php
 // *************** <PAGING_SECTION> ***************
-echo "<nav class='overflow-hidden'>";
-echo "<ul class='pagination pull-left margin-zero'>";
+echo "<nav class='overflow-hidden text-center'>";
+echo "<ul class='pagination no-margin pull-'>";
 
 // ***** for 'first' and 'previous' pages
 if($page>1){
