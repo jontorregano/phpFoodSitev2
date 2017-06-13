@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>PDO - Read One Record - PHP CRUD Tutorial</title>
+    <title>Menu Item Details</title>
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
@@ -22,7 +22,7 @@
 <div class="container">
 
     <div class="page-header">
-        <h1>Read Product</h1>
+        <h1>Details on Food</h1>
     </div>
 
     <?php
@@ -95,7 +95,7 @@
         <tr>
             <td>Image</td>
             <td>
-                <?php echo $foodImage ? "<img src='uploads/{$foodImage}' style='width:300px;' />" : "No image found.";  ?>
+                <?php echo $foodImage ? "<img src='uploads/{$foodImage}' style='width:200px;' />" : "<img src='uploads/noImage' style='width:200px;' />" ?>
             </td>
         </tr>
             <td></td>

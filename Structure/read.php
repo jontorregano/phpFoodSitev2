@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>PDO - View Records - PHP CRUD Tutorial</title>
+    <title>Grab It N Go Menu</title>
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
@@ -28,8 +28,8 @@
 <!-- container -->
 <div class="container">
 
-    <div class="page-header">
-        <h1>View Products</h1>
+    <div class="page-header text-center">
+        <h1>Grab It N Go Menu</h1>
     </div>
 
     <?php
@@ -44,13 +44,14 @@
     }
 
     // select all data
-    $query = "SELECT id, foodName, foodPrice, foodTag, foodType, foodSize FROM menu ORDER BY id ASC
+    $query = "SELECT id, foodName, foodPrice, foodTag, foodType, foodSize, foodImage FROM menu ORDER BY id ASC
       LIMIT :from_record_num, :records_per_page";
 
     $stmt = $con->prepare($query);
     $stmt->bindParam(":from_record_num", $from_record_num, PDO::PARAM_INT);
     $stmt->bindParam(":records_per_page", $records_per_page, PDO::PARAM_INT);
     $stmt->execute();
+    $stmt->bindParam(':foodImage', $foodImage);
 
     // this is how to get number of rows returned
     $num = $stmt->rowCount();
@@ -67,10 +68,11 @@
         echo "<tr>";
         //echo "<th>ID</th>";
         echo "<th>Name</th>";
+        echo "<th>Picture</th>";
         echo "<th>Price</th>";
         echo "<th>Tag</th>";
         echo "<th>Type</th>";
-        echo "<th>Size</th>";
+        //echo "<th>Size</th>";
         echo "<th>Action</th>";
         echo "</tr>";
 
@@ -87,10 +89,17 @@
             echo "<tr>";
             //echo "<td>{$id}</td>";
             echo "<td>{$foodName}</td>";
+
+            if ($foodImage != null){
+                echo "<td><img src='uploads/$foodImage' style='width:75px;' /></td>";
+            } else {
+                echo "<td><img src='uploads/noImage' style='width:75px;' /></td>";
+            }
+
             echo "<td>&#36;{$foodPrice}</td>";
             echo "<td>{$foodTag}</td>";
             echo "<td>{$foodType}</td>";
-            echo "<td>{$foodSize}</td>";
+            //echo "<td>{$foodSize}</td>";
             echo "<td>";
             // read one record
             echo "<a href='read_one.php?id={$id}' class='btn btn-info m-r-1em'>View</a>";

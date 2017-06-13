@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>PDO - Create a Record - PHP CRUD Tutorial</title>
+<title>Create a Menu Item</title>
 
 <!-- Bootstrap -->
 <!-- Latest compiled and minified CSS -->
@@ -21,7 +21,7 @@
     <div class="container">
 
         <div class="page-header">
-            <h1>Create Product</h1>
+            <h1>Create a Menu Item</h1>
         </div>
 
         <?php
