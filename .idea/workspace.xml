@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3082dfa9-f044-48d3-81e6-7d5e40e709b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Structure/uploads/noImage" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Structure/create.php" afterPath="$PROJECT_DIR$/Structure/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Structure/read.php" afterPath="$PROJECT_DIR$/Structure/read.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Structure/read_one.php" afterPath="$PROJECT_DIR$/Structure/read_one.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Structure/update.php" afterPath="$PROJECT_DIR$/Structure/update.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +57,8 @@
       <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Structure/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1088">
-              <caret line="73" column="64" lean-forward="false" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="64" />
+            <state relative-caret-position="-1242">
+              <caret line="75" column="69" lean-forward="false" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="69" />
               <folding>
                 <marker date="1497312979528" expanded="true" signature="942:1102" ph="INSERT INTO menu... " />
               </folding>
@@ -71,24 +66,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Structure/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Structure/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="107" column="54" lean-forward="true" selection-start-line="107" selection-start-column="54" selection-end-line="107" selection-end-column="54" />
               <folding>
-                <marker date="1497313046798" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
-                <marker date="1497313046798" expanded="true" signature="2511:2720" ph="UPDATE menu " />
+                <marker date="1497328195146" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
+                <marker date="1497328195146" expanded="true" signature="2509:2718" ph="UPDATE menu " />
               </folding>
             </state>
           </provider>
@@ -97,18 +82,18 @@
       <file leaf-file-name="menu.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Structure/Database/menu.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
+            <state relative-caret-position="408">
               <caret line="110" column="80" lean-forward="false" selection-start-line="110" selection-start-column="80" selection-end-line="110" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="read.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Structure/read.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
-              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding>
                 <marker date="1497326963262" expanded="true" signature="1257:1401" ph="SELECT id, f... menu" />
                 <marker date="1497326963262" expanded="true" signature="2791:2871" ph="..." />
@@ -140,8 +125,8 @@
       <file leaf-file-name="read_one.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Structure/read_one.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="97" column="102" lean-forward="true" selection-start-line="97" selection-start-column="102" selection-end-line="97" selection-end-column="102" />
+            <state relative-caret-position="1649">
+              <caret line="97" column="102" lean-forward="false" selection-start-line="97" selection-start-column="102" selection-end-line="97" selection-end-column="102" />
               <folding>
                 <marker date="1497326325697" expanded="true" signature="1137:1251" ph="SELECT id, f... menu" />
                 <marker date="1497326325697" expanded="true" signature="3045:3057" ph="..." />
@@ -170,6 +155,8 @@
       <find>save</find>
       <find>read</find>
       <find>view</find>
+      <find>$foodimage</find>
+      <find>$foodImage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,10 +174,10 @@
         <option value="$PROJECT_DIR$/Structure/read(test).php" />
         <option value="$PROJECT_DIR$/Structure/index.php" />
         <option value="$PROJECT_DIR$/Structure/Database/menu.sql" />
-        <option value="$PROJECT_DIR$/Structure/update.php" />
         <option value="$PROJECT_DIR$/Structure/read_one.php" />
-        <option value="$PROJECT_DIR$/Structure/create.php" />
         <option value="$PROJECT_DIR$/Structure/read.php" />
+        <option value="$PROJECT_DIR$/Structure/create.php" />
+        <option value="$PROJECT_DIR$/Structure/update.php" />
       </list>
     </option>
   </component>
@@ -444,11 +431,12 @@
       <workItem from="1497251574392" duration="36000" />
       <workItem from="1497307137096" duration="2116000" />
       <workItem from="1497309656379" duration="11904000" />
+      <workItem from="1497327164976" duration="1162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54678000" />
+    <option name="totallyTimeSpent" value="55840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,7 +455,6 @@
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -479,6 +466,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -518,8 +506,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1497313046798" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
-            <marker date="1497313046798" expanded="true" signature="2511:2720" ph="UPDATE menu " />
+            <marker date="1497328195146" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
+            <marker date="1497328195146" expanded="true" signature="2509:2718" ph="UPDATE menu " />
           </folding>
         </state>
       </provider>
@@ -641,8 +629,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1497313046798" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
-            <marker date="1497313046798" expanded="true" signature="2511:2720" ph="UPDATE menu " />
+            <marker date="1497328195146" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
+            <marker date="1497328195146" expanded="true" signature="2509:2718" ph="UPDATE menu " />
           </folding>
         </state>
       </provider>
@@ -662,8 +650,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1497313046798" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
-            <marker date="1497313046798" expanded="true" signature="2511:2720" ph="UPDATE menu " />
+            <marker date="1497328195146" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
+            <marker date="1497328195146" expanded="true" signature="2509:2718" ph="UPDATE menu " />
           </folding>
         </state>
       </provider>
@@ -734,8 +722,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1497313046798" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
-            <marker date="1497313046798" expanded="true" signature="2511:2720" ph="UPDATE menu " />
+            <marker date="1497328195146" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
+            <marker date="1497328195146" expanded="true" signature="2509:2718" ph="UPDATE menu " />
           </folding>
         </state>
       </provider>
@@ -864,47 +852,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Structure/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Structure/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding>
-            <marker date="1497313046798" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
-            <marker date="1497313046798" expanded="true" signature="2511:2720" ph="UPDATE menu " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Structure/Database/menu.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="110" column="80" lean-forward="false" selection-start-line="110" selection-start-column="80" selection-end-line="110" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Structure/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1088">
-          <caret line="73" column="64" lean-forward="false" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="64" />
-          <folding>
-            <marker date="1497312979528" expanded="true" signature="942:1102" ph="INSERT INTO menu... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Structure/read_one.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="97" column="102" lean-forward="true" selection-start-line="97" selection-start-column="102" selection-end-line="97" selection-end-column="102" />
+        <state relative-caret-position="1649">
+          <caret line="97" column="102" lean-forward="false" selection-start-line="97" selection-start-column="102" selection-end-line="97" selection-end-column="102" />
           <folding>
             <marker date="1497326325697" expanded="true" signature="1137:1251" ph="SELECT id, f... menu" />
             <marker date="1497326325697" expanded="true" signature="3045:3057" ph="..." />
@@ -930,7 +881,7 @@
     <entry file="file://$PROJECT_DIR$/Structure/read.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
             <marker date="1497326963262" expanded="true" signature="1257:1401" ph="SELECT id, f... menu" />
             <marker date="1497326963262" expanded="true" signature="2791:2871" ph="..." />
@@ -939,6 +890,43 @@
             <marker date="1497326963262" expanded="true" signature="3138:3143" ph="..." />
             <marker date="1497326963262" expanded="true" signature="3308:3368" ph="..." />
             <marker date="1497326963262" expanded="true" signature="3896:3935" ph="SELECT COUNT... menu" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Structure/Database/menu.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="110" column="80" lean-forward="false" selection-start-line="110" selection-start-column="80" selection-end-line="110" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Structure/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Structure/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242">
+          <caret line="75" column="69" lean-forward="false" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="69" />
+          <folding>
+            <marker date="1497312979528" expanded="true" signature="942:1102" ph="INSERT INTO menu... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Structure/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="107" column="54" lean-forward="true" selection-start-line="107" selection-start-column="54" selection-end-line="107" selection-end-column="54" />
+          <folding>
+            <marker date="1497328195146" expanded="true" signature="1140:1243" ph="SELECT id, f... menu" />
+            <marker date="1497328195146" expanded="true" signature="2509:2718" ph="UPDATE menu " />
           </folding>
         </state>
       </provider>
